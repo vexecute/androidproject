@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#012759">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/paisapal_logo_rounded"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/transaction_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        style="@style/EditTextHintStyle"
+        android:backgroundTint="#fff"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/transaction_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Amount"
+        style="@style/EditTextHintStyle"
+        android:backgroundTint="#fff"
+        android:textColor="#fff" />
+
+    <Spinner
+        android:id="@+id/transaction_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/categories_array"
+        android:backgroundTint="#fff" />
+
+    <RadioGroup
+        android:id="@+id/transaction_type_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/income_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Income"
+            android:textColor="#fff" />
+
+        <RadioButton
+            android:id="@+id/expense_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expense"
+            android:textColor="#fff" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/add_transaction_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Transaction"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:backgroundTint="#4CAF50"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Paisapal</string>
+
+    <!-- Login Form Strings -->
+    <string name="login_form_title">Login</string>
+    <string name="login_form_username">Username</string>
+    <string name="login_form_password">Password</string>
+    <string name="login_form_login">LOGIN</string>
+    <string name="login_form_signup">Sign Up</string> <!-- New for Sign Up button -->
+
+    <!-- Signup Form Strings -->
+    <string name="signup_form_title">Sign Up</string>
+    <string name="signup_form_username">Username</string>
+    <string name="signup_form_email">Email</string>
+    <string name="signup_form_password">Password</string>
+    <string name="signup_form_confirm_password">Confirm Password</string>
+    <string name="signup_form_signup">SIGN UP</string>
+    <string name="signup_form_login">Already have an account? Login</string> <!-- New for Login button -->
+
+    <string-array name="categories_array">
+        <item>Food</item>
+        <item>Transport</item>
+        <item>Entertainment</item>
+        <item>Utilities</item>
+        <item>Health</item>
+        <item>Others</item>
+    </string-array>
+
+</resources>

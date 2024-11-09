@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#012759">
+
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/app_logo_about"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/paisapal_logo_rounded"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/text_about_us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About PaisaPal"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Brief Description -->
+        <TextView
+            android:id="@+id/text_about_us_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PaisaPal is your trusted companion in financial management, helping you take control of your money effortlessly. Designed with simplicity and efficiency in mind, PaisaPal makes tracking your spending and income easier than ever. Whether you are budgeting for everyday expenses or planning for long-term financial goals, our app is tailored to meet all your personal finance needs."
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Features -->
+        <TextView
+            android:id="@+id/text_feature_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Key Features:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Feature 1 -->
+        <TextView
+            android:id="@+id/text_feature1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Track your spending easily across different categories."
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Feature 2 -->
+        <TextView
+            android:id="@+id/text_feature2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Set personalized budgets to meet your financial goals."
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Feature 3 -->
+        <TextView
+            android:id="@+id/text_feature3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Get detailed reports of your income and expenses."
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Feature 4 -->
+        <TextView
+            android:id="@+id/text_feature4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Stay on top of your finances with real-time insights."
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Copyright -->
+        <TextView
+            android:id="@+id/text_copyright"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="© 2024 BtechCYS Group 17. All rights reserved."
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_marginTop="24dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
